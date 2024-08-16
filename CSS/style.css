@@ -208,20 +208,35 @@ nav li:hover {
 .flexContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* padding-top: 10px; */
     padding-left: 15px;
+    /* flex-wrap: wrap; */
 
 
 }
 
+/* .flexx1 {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.flexx2 {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+} */
+
 .flexCard {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 15px;
     padding-left: 25px;
     padding-bottom: 40px;
-    width: 22%;
-
+    /* width: 22%; */
+    margin-right:10px;
 }
 
 .flexCard:hover {
@@ -238,6 +253,7 @@ nav li:hover {
 .menuImage {
     margin: 0;
     height: 160px;
+    width:274px;
 
 }
 
@@ -249,6 +265,7 @@ nav li:hover {
     border-bottom-right-radius: 10px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
     height: 190px;
+    width:274px;
 
 
 
@@ -493,31 +510,55 @@ li .inline-block .text{
 
 
 /*Mobile Media Query*/
-@media only screen and (max-width: 1200px) {
-    .flexContainer {
+@media only screen and (max-width: 1000px) {
+    /* .flexContainer {
         display:flex;
         flex-direction:column;
         justify-content: center;
         flex-wrap:wrap;
-    }
+        padding-left:0;
+    } */
 
     /* .menuContent {
     font-size:11px;} */
 
 
+    .flexx2 {
+        width:90%;
+    }
+
     .menuContent .addtoCart .customize {
         width: 70px;
     }
 
-    .flexContainer {
-        width:65%;
+    /* .flexContainer {
+        width:100%;
         
+    } */
+
+    .containerGrid {
+        margin:0px,0px;
+        padding-right:0px;
+        padding-left:0px;
     }
+
+    .localFavorites .flexContainer {
+display:flex;
+flex-direction:row;
+justify-content: center;
+/* align-items:center;    } */
+}
+
+.locationcontainer {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+}
+
 }
 
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
 .navigation {
     display:flex;
@@ -527,7 +568,11 @@ justify-content: left;}
 .heroBanner {
     width: 100%;
 }
-
+.containerGrid {
+    margin:0px,0px;
+    padding-right:0px;
+    padding-left:0px;
+}
 .currentLocation {
     position: absolute;
     top: -2px;
@@ -563,16 +608,24 @@ nav li {
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding-right:5%;
+    /* padding-right:5%; */
     padding-left:5%;
 grid-gap: 0px;
 
 }
 
+.leftSide img{
+    width:100px;
+    height:100px;
+}
+
+
+
 .rightSide {
     display:flex;
     flex-direction: column;
     align-items:center;
+    padding-right:0px;
 }
 
 .leftSide img {
@@ -584,14 +637,18 @@ flex-direction:column;
 align-items:center;
 }
 
-.flexContainer {
+/* .localFavorites {
+    margin:40px, 0;
+} */
+/* .flexContainer {
     display:flex;
     flex-direction:column;
-    justify-content: center;
-}
+    align-items: center;
+} */
 
 .flexCard {
-    width:90%;
+    /* width:90%; */
+    padding-left:0;
     
 }
 
@@ -604,10 +661,10 @@ align-items:center;
     padding-bottom:20px;
 }
 
-.locationcontainer {
-    display:flex;
-    flex-direction:column-reverse;
-    align-items:center;
+
+
+.locationInfo {
+    margin-bottom:30px;
 }
 
 footer{
