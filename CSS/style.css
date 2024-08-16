@@ -589,7 +589,7 @@ align-items:center;
 }
 
 .flexCard {
-    width:60%;
+    width:90%;
     
 }
 
@@ -617,7 +617,7 @@ footer{
         "logoo"
         "text"
         "socialmedia";
-    align-content: start;
+    align-content: start;}
 
 .logoo {
     width:110px;
@@ -629,5 +629,4 @@ footer{
     display:row;
 }
 
-}
 }
