@@ -413,6 +413,35 @@ nav li:hover {
     cursor: pointer;
 }
 
+/* .promoLeft button {
+    position:relative;
+    z-index:2;
+    margin-top: 450px;
+    margin-left:298px;
+    width: 223px;
+    height: 35px;
+    background-color: #4B998B;
+    border-radius: 10px;
+    border-color: #4B998B;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #4B998B;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+} */
+
+/* .promoLeft button:hover {
+    scale: 1.05;
+} */
+
 .promoRight {
     display: flex;
     justify-content: center;
@@ -829,6 +858,7 @@ footer ul {
     margin-left:0px;
     padding-left:15px;
     padding-right:15px;
+    padding-bottom:15px;
     
 }
 
