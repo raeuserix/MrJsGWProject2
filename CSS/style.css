@@ -431,7 +431,7 @@ nav li:hover {
 
     margin-left: 39px;
     margin-right: 40px;
-    margin-top: 50px;
+    /* margin-top: 10px; */
     padding-bottom: 10px;
     padding-top: 10px;
     display: grid;
@@ -442,14 +442,26 @@ nav li:hover {
     align-content: start;
 }
 
-.locationInfo h1 {
-    margin-top: 0;
-    font-size:30px;
+.location h1 {
+    margin-top: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ddf1f2;
     margin-bottom:10px;
+}
+
+.location {
+    margin-top:20px;
 }
 
 .mapImage {
     cursor:pointer;
+}
+
+
+.locationcontainer p {
+    margin-top:0px;
 }
 
 /*footer*/
@@ -532,6 +544,7 @@ li .inline-block .text{
 }
 
 
+
 /*Mobile Media Query*/
 @media only screen and (max-width: 950px) {
    
@@ -563,6 +576,8 @@ li .inline-block .text{
     }
     .aboutt {
         padding-bottom:20px;
+        width:300px;
+        height:300px;
     }
 
     .localFavorites .flexContainer {
@@ -577,6 +592,14 @@ justify-content: center;
     flex-direction:column-reverse;
     align-items:center;
     margin-bottom:30px;
+}
+
+.locationcontainer p {
+    margin-top:0px;
+}
+
+.mapImage {
+    padding-top:15px;
 }
 
 footer {
@@ -760,10 +783,10 @@ align-items:center;
 
 
 
-.locationInfo {
+.locationcontainer {
     margin-bottom:30px;
     display:flex;
-    flex-direction:column;
+    flex-direction:column-reverse;
     justify-content:center;
 }
 
