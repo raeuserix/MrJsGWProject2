@@ -533,16 +533,7 @@ li .inline-block .text{
 
 /*Mobile Media Query*/
 @media only screen and (max-width: 950px) {
-    /* .flexContainer {
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        flex-wrap:wrap;
-        padding-left:0;
-    } */
-
-    /* .menuContent {
-    font-size:11px;} */
+   
 
   .flexx2 {
         width:90%;
